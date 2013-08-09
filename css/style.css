@@ -1,0 +1,45 @@
+.page-header
+{
+    margin-bottom: 0px;
+}
+.container
+{
+    width: 70%;
+}
+#search .col-lg-3
+{
+    padding-left: 0;
+    margin-left: 0;
+}
+ul li
+{
+    float: none;
+}
+.panel-footer
+{
+    text-align: center;
+}
+
+/*
+vertical nabs design
+*/
+.nav nav-pills nav-stacked
+{
+    background-color: #ffff00;
+}
+.col-lg-3 ul li
+{
+    margin-top: 5px;
+    background-color: #f0fff0;
+}
+
+#left-nav ul
+{
+    margin-top: 15px;
+}
+#left-nav ul li
+{
+    border: 1px solid #a52a2a;
+    padding: 0;
+    margin: 0;
+}
