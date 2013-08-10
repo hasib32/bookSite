@@ -2463,7 +2463,7 @@ button.close {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #8c8c8c;
 }
 
 .nav > li.disabled > a {

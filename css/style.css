@@ -30,7 +30,7 @@ vertical nabs design
 .col-lg-3 ul li
 {
     margin-top: 5px;
-    background-color: #f0fff0;
+    background-color: #eeeeee;
 }
 #left-nav
 {
@@ -46,4 +46,8 @@ putting space on top
 #content
 {
     margin-top: 10px;
+}
+input[type='text']
+{
+    width: 200px;
 }

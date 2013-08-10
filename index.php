@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="page-header">
+    <div class="page-header ">
         <h2> Name and Logo goes Here</h2>
     </div>
     <div class="row">
@@ -21,6 +21,7 @@
                         <li><a href="#">Sell Books</a> </li>
                         <li><a href="#">Books on Demand</a> </li>
                         <li><a href="#">Request a Book</a> </li>
+                        <li><a href="#">About Us</a> </li>
                     </ul>
                 </div>
         </div>
