@@ -1,140 +1,205 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <title>Buy Text Books</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-<div class="container">
-    <div class="page-header ">
-        <h2> Name and Logo goes Here</h2>
-    </div>
-    <div class="row">
-            <div id="left-nav">
-                <div class="col-lg-3">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li ><a href="#">Home </a> </li>
-                        <li><a href="#">Buy Books</a> </li>
-                        <li><a href="#">Sell Books</a> </li>
-                        <li><a href="#">Books on Demand</a> </li>
-                        <li><a href="#">Request a Book</a> </li>
-                        <li><a href="#">About Us</a> </li>
-                    </ul>
-                </div>
-        </div>
+<?php
 
-        <div id="search">
-            <div class="col-lg-4">
-                <form class="navbar-search pull-left">
-                    <input type="text" class="search-query" placeholder="Search Here..">
-                </form>
-            </div>
-        </div>
-        <div id="select">
-            <div class="col-lg-4">
-                <select>
-                    <option selected="" value="All">All departments</option>
-                    <option value="Accounting">Accounting</option>
-                    <option value="Anthropology">Anthropology</option>
-                    <option value="Art History">Art History</option>
-                    <option value="Biological Sciences">Biological Sciences</option>
-                    <option value="Biology">Biology</option>
-                    <option value="Business">Business</option>
-                    <option value="Business Technology">Business Technology</option>
-                    <option value="Chemistry">Chemistry</option>
-                    <option value="Communication">Communication</option>
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Cooperative Education">Cooperative Education</option>
-                    <option value="Counseling">Counseling</option>
-                    <option value="Criminal Justice">Criminal Justice</option>
-                    <option value="Design">Design</option>
-                    <option value="Economics">Economics</option>
-                    <option value="Education">Education</option>
-                    <option value="Education Studies">Education Studies</option>
-                    <option value="EMT & Paramedic">EMT & Paramedic</option>
-                    <option value="Engineering">Engineering</option>
-                    <option value="English">English</option>
-                    <option value="English As A Second Language">English As A Second Language</option>
-                    <option value="Ethnic Studies">Ethnic Studies</option>
-                    <option value="Film">Film</option>
-                    <option value="Fine Arts">Fine Arts</option>
-                    <option value="Geography">Geography</option>
-                    <option value="Graphic Arts">Graphic Arts</option>
-                    <option value="Health Science">Health Science</option>
-                    <option value="History">History</option>
-                    <option value="Hospitality">Hospitality</option>
-                    <option value="Humanities">Humanities</option>
-                    <option value="Information Science">Information Science</option>
-                    <option value="International Studies">International Studies</option>
-                    <option value="Journalism">Journalism</option>
-                    <option value="Languages">Languages</option>
-                    <option value="Law">Law</option>
-                    <option value="Literature">Literature</option>
-                    <option value="Management">Management</option>
-                    <option value="Marketing">Marketing</option>
-                    <option value="Mathematics">Mathematics</option>
-                    <option value="Medicine">Medicine</option>
-                    <option value="Music">Music</option>
-                    <option value="Natural Sciences">Natural Sciences</option>
-                    <option value="Not Specified">Not Specified</option>
-                    <option value="Nursing">Nursing</option>
-                    <option value="Nutrition">Nutrition</option>
-                    <option value="Philosophy">Philosophy</option>
-                    <option value="Physical Ed">Physical Ed</option>
-                    <option value="Physical Education">Physical Education</option>
-                    <option value="Physics">Physics</option>
-                    <option value="Political Science">Political Science</option>
-                    <option value="Psychology">Psychology</option>
-                    <option value="Science">Science</option>
-                    <option value="Social Science">Social Science</option>
-                    <option value="Social Sciences">Social Sciences</option>
-                    <option value="Social Work">Social Work</option>
-                    <option value="Sociology">Sociology</option>
-                    <option value="Theater">Theater</option>
-                    <option value="Writing">Writing</option>
-                </select>
-            </div>
-        </div>
-        <div id="content" >
-            <div class="col-lg-7 ">
-                <h3>Introduction to computer</h3>
-                <h4>By David Mayer</h4>
-                <p>This is book is look likes brand new</p>
-                <p>Seller: MR Mario</p>
-                <hr>
-                <h3>Introduction to computer</h3>
-                <h4>By David Mayer</h4>
-                <p>This is book is look likes brand new</p>
-                <p>Seller: MR Mario</p>
-                <hr>
-                <h3>Introduction to computer</h3>
-                <h4>By David Mayer</h4>
-                <p>This is book is look likes brand new</p>
-                <p>Seller: MR Mario</p>
-                <hr>
-                <h3>Introduction to computer</h3>
-                <h4>By David Mayer</h4>
-                <p>This is book is look likes brand new</p>
-                <p>Seller: MR Mario</p>
-                <hr><h3>Introduction to computer</h3>
-                <h4>By David Mayer</h4>
-                <p>This is book is look likes brand new</p>
-                <p>Seller: MR Mario</p>
-                <hr><h3>Introduction to computer</h3>
-                <h4>By David Mayer</h4>
-                <p>This is book is look likes brand new</p>
-                <p>Seller: MR Mario</p>
-                <hr>
-            </div>
-        </div>
-    </div>
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ *
+ */
+	define('ENVIRONMENT', 'development');
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
 
-        </div>
-    <div class="panel-footer">Develop by mgbites.com </div>
-</div>
+if (defined('ENVIRONMENT'))
+{
+	switch (ENVIRONMENT)
+	{
+		case 'development':
+			error_reporting(E_ALL);
+		break;
+	
+		case 'testing':
+		case 'production':
+			error_reporting(0);
+		break;
 
-</body>
-</html>
+		default:
+			exit('The application environment is not set correctly.');
+	}
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" folder.
+ * Include the path if the folder is not in the same  directory
+ * as this file.
+ *
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * folder then the default one you can set its name here. The folder
+ * can also be renamed or relocated anywhere on your server.  If
+ * you do, use a full server path. For more info please see the user guide:
+ * http://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ *
+ */
+	$application_folder = 'application';
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here.  For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT:  If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller.  Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ *
+ */
+	// The directory name, relative to the "controllers" folder.  Leave blank
+	// if your controller is not in a sub-folder within the "controllers" folder
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  Mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ *
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
+
+
+
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
+
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
+
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
+
+	if (realpath($system_path) !== FALSE)
+	{
+		$system_path = realpath($system_path).'/';
+	}
+
+	// ensure there's a trailing slash
+	$system_path = rtrim($system_path, '/').'/';
+
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
+	}
+
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// The PHP file extension
+	// this global constant is deprecated.
+	define('EXT', '.php');
+
+	// Path to the system folder
+	define('BASEPATH', str_replace("\\", "/", $system_path));
+
+	// Path to the front controller (this file)
+	define('FCPATH', str_replace(SELF, '', __FILE__));
+
+	// Name of the "system folder"
+	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
+
+
+	// The path to the "application" folder
+	if (is_dir($application_folder))
+	{
+		define('APPPATH', $application_folder.'/');
+	}
+	else
+	{
+		if ( ! is_dir(BASEPATH.$application_folder.'/'))
+		{
+			exit("Your application folder path does not appear to be set correctly. Please open the following file and correct this: ".SELF);
+		}
+
+		define('APPPATH', BASEPATH.$application_folder.'/');
+	}
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ *
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
+
+/* End of file bookSite.php */
+/* Location: ./bookSite.php */
