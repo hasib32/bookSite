@@ -22,7 +22,7 @@
             <div id="left-nav">
                 <div class="col-lg-3">
                     <ul class="nav nav-pills nav-stacked">
-                        <li ><a href="#">Home </a> </li>
+                        <li ><a href="bookSite.php">Home </a> </li>
                         <li><a href="#">Buy Books</a> </li>
                         <li><a href="sellBook.php">Sell Books</a> </li>
                         <li><a href="#">Books on Demand</a> </li>
